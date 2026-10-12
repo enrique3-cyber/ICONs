@@ -1,0 +1,53 @@
+# IVTI / Road to 56 compatibility overlay — aircraft
+# Load this mod after Road to 56 and IVTI.
+# This defines high-priority default icon pools for standard airframes.
+# The model selectors mirror IVTI custom archetype coverage and let these
+# icon entries compete with Road to 56 generic fallbacks.
+
+default = {
+	small_plane_airframe_0 = {
+		pool = { weight = 100 icons = { GFX_GEN_early_fighter_medium } }
+	}
+	small_plane_airframe_1 = {
+		pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_8.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_7.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_6.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_5.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_4.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_3.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_2.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_1.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1_0.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_1.dds" } }
+	}
+	small_plane_airframe_2 = {
+		pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_10.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_9.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_8.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_7.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_6.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_5.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_4.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_3.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_2.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_1.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2_0.dds" "gfx/interface/technologies/GEN/AIR/GEN_fighter_2.dds" } }
+	}
+	small_plane_airframe_3 = {
+		pool = { weight = 100 icons = { GFX_GEN_fighter3_medium } }
+	}
+	small_plane_CAS_airframe_0 = {
+		pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_CAS_0.dds" } }
+	}
+	small_plane_CAS_airframe_1 = { pool = { weight = 100 icons = { GFX_GEN_CAS1_medium } } }
+	small_plane_CAS_airframe_2 = { pool = { weight = 100 icons = { GFX_GEN_CAS2_medium } } }
+	small_plane_CAS_airframe_3 = { pool = { weight = 100 icons = { GFX_GEN_CAS3_medium } } }
+	small_plane_naval_bomber_airframe_0 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_light_floatplane_0.dds" } } }
+	small_plane_naval_bomber_airframe_1 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_light_floatplane_1.dds" } } }
+	small_plane_naval_bomber_airframe_2 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_light_floatplane_2.dds" } } }
+	small_plane_naval_bomber_airframe_3 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_light_floatplane_3.dds" } } }
+	cv_small_plane_airframe_0 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_0.dds" } } }
+	cv_small_plane_airframe_1 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_1.dds" } } }
+	cv_small_plane_airframe_2 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_2.dds" } } }
+	cv_small_plane_airframe_3 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_3.dds" } } }
+	medium_plane_airframe_0 = { pool = { weight = 100 icons = { GFX_GEN_early_bomber_medium } } }
+	medium_plane_fighter_airframe_1 = { pool = { weight = 100 icons = { GFX_GEN_heavy_fighter1_medium } } }
+	medium_plane_airframe_1 = { pool = { weight = 100 icons = { GFX_GEN_naval_bomber1_medium GFX_GEN_tactical_bomber1_medium } } }
+	medium_plane_fighter_airframe_2 = { pool = { weight = 100 icons = { GFX_GEN_heavy_fighter2_medium } } }
+	medium_plane_airframe_2 = { pool = { weight = 100 icons = { GFX_GEN_naval_bomber2_medium GFX_GEN_tactical_bomber2_medium } } }
+	medium_plane_fighter_airframe_3 = { pool = { weight = 100 icons = { GFX_GEN_heavy_fighter3_medium } } }
+	medium_plane_airframe_3 = { pool = { weight = 100 icons = { GFX_GEN_naval_bomber3_medium GFX_GEN_tactical_bomber3_medium } } }
+	medium_plane_scout_airframe_1 = { pool = { weight = 100 icons = { GFX_GEN_scout_plane1_medium } } }
+	medium_plane_scout_airframe_2 = { pool = { weight = 100 icons = { GFX_GEN_scout_plane2_medium } } }
+	large_plane_airframe_0 = { pool = { weight = 100 icons = { GFX_GEN_iw_large_airframe_medium } } }
+	large_plane_airframe_1 = { pool = { weight = 100 icons = { GFX_GEN_basic_large_airframe_medium } } }
+	large_plane_airframe_2 = { pool = { weight = 100 icons = { GFX_GEN_improved_large_airframe_medium } } }
+	large_plane_airframe_3 = { pool = { weight = 100 icons = { GFX_GEN_advanced_large_airframe_medium } } }
+	large_plane_airframe_4 = { pool = { weight = 100 icons = { GFX_GEN_jet_strategic_bomber1_medium } } }
+	large_plane_maritime_patrol_plane_airframe_1 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_H_nav_1.dds" } } }
+	large_plane_maritime_patrol_plane_airframe_2 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_H_nav_2.dds" } } }
+	large_plane_maritime_patrol_plane_airframe_3 = { pool = { weight = 100 icons = { "gfx/interface/technologies/GEN/AIR/GEN_H_nav_3.dds" } } }
+	medium_plane_airframe_4 = { pool = { weight = 100 icons = { GFX_GEN_jet_tactical_bomber2_medium GFX_GEN_jet_tactical_bomber1_medium } } }
+	small_plane_airframe_4 = { pool = { weight = 100 icons = { GFX_GEN_jet_fighter2_medium GFX_GEN_jet_fighter1_medium } } }
+}
