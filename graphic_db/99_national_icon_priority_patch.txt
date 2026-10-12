@@ -1,0 +1,202 @@
+# National icon-priority patch for Improved Vanilla Technology Icons
+# Places country-specific equipment designer pools ahead of generic fallback pools.
+# Intended for HOI4 1.17.5+ selector pool weighting.
+
+GER = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+SOV = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+USA = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+ENG = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+FRA = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+JAP = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+ITA = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+POL = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+HUN = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+CZE = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+ROM = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+YUG = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+CHI = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+PRC = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+ARG = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+BRA = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	small_plane_naval_bomber_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
+
+CHL = {
+	light_tank_chassis = { pool = { weight = 2 } }
+	medium_tank_chassis = { pool = { weight = 2 } }
+	heavy_tank_chassis = { pool = { weight = 2 } }
+	small_plane_airframe = { pool = { weight = 2 } }
+	small_plane_cas_airframe = { pool = { weight = 2 } }
+	medium_plane_airframe = { pool = { weight = 2 } }
+	medium_plane_fighter_airframe = { pool = { weight = 2 } }
+	large_plane_airframe = { pool = { weight = 2 } }
+}
