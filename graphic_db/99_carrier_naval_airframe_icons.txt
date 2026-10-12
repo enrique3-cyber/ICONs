@@ -1,0 +1,62 @@
+# Carrier and naval aircraft archetype icon fallbacks for IVTI.
+# These pools fill the zero-tier and carrier pools which were absent from
+# the generic IVTI plane database. Existing country-specific pools remain
+# higher priority at equal weights; country-specific carrier art is not
+# fabricated here. The GFX names below are the vanilla/IVTI generic aliases.
+
+default = {
+	cv_small_plane_airframe_0 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_fighter_0.dds" }
+		}
+	}
+	cv_small_plane_cas_airframe_0 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_CAS_1.dds" }
+		}
+	}
+	cv_small_plane_cas_airframe_1 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_CAS_1.dds" }
+		}
+	}
+	cv_small_plane_cas_airframe_2 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_CAS_2.dds" }
+		}
+	}
+	cv_small_plane_cas_airframe_3 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_CAS_3.dds" }
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_0 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_1.dds" }
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_1 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_1.dds" }
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_2 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_2.dds" }
+		}
+	}
+	cv_small_plane_naval_bomber_airframe_3 = {
+		pool = {
+			weight = 1
+			icons = { "gfx/interface/technologies/GEN/AIR/GEN_cv_nav_3.dds" }
+		}
+	}
+}
